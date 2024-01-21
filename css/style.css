@@ -248,7 +248,7 @@ button:hover {
 
 .banner-section4 .flexbox {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     margin: 0;
     height: auto;
