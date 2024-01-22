@@ -334,7 +334,9 @@ button:hover {
 .banner-section5 .flexbox .right {
     flex-basis: 50%;
 }
-
+.banner-section5 .flexbox .left{
+    margin-right: 50px;
+}
 .banner-section5 .flexbox .left h1 {
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
