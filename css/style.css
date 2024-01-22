@@ -1,450 +1,303 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="wrapper">
+            <div class="navbar">
+                <div class="logo" style="display: inline-block;">
+                    <img src="https://shikhbeshobai.com/frontend/assets/images/Shikhbe-shobai-logo.png" alt=""
+                        width="100px">
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">SS Juniors</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a style="color: rgb(250, 15, 15);" href="#">Live</a></li>
 
-header {
-    width: 100%;
-    padding: 15px 0;
-}
-
-.wrapper {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
+                    </ul>
+                </div>
+                <div class="btns">
+
+                    <button>Sign-in</button>
+                    <button>Sign-up</button>
+
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+
+    <section class="banner-section">
+        <div class="wrapper">
+            <div class="flexbox">
+                <div class="left">
+                    <h1>Change Your Life with Shikhbe Shobai</h1>
+                    <p>Shikhbe Shobai teaches you the skills you need to thrive and earn online <br> now and in the future.
+                    </p>
+                    <button>View Courses</button>
+                </div>
+
+                <div class="right"><img src="https://shikhbeshobai.com/frontend/assets/images/intro.png" alt=""></div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="banner-section2">
+        <div class="wrapper">
+            <div class="flexbox">
+                <div class="left">
+                    <h2>12,300+ Graduates</h2>
+                    <p>Shikhbe Shobai has trained 14800+ trainees so far. And it's increasing everyday.</p>
+                </div>
+                <div class="middle">
+                    <h2>$17,00,000+ Earned</h2>
+                    <p>Our students has reached the combined earning of $1 million (USD) so far.</p>
+
+                </div>
+                <div class="right">
+                    <h2>5,50,000+ Members</h2>
+                    <p>Over 425K+ people are connected with us through social media and supporting our mission.</p>
+
+                </div>
+            </div>
 
-.menu ul {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-
-}
-
-.menu ul li {
-    display: inline-block;
-    list-style-type: none;
-    margin-right: 25px;
-    text-decoration: none;
-    text-transform: capitalize;
-
-}
-
-.menu ul li a {
-    text-decoration: none;
-    text-transform: capitalize;
-    color: #000;
-    font-size: 20px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
-
-}
-
-button {
-    color: #ffffff;
-    background-color: darkblue;
-    padding: 10px 20px;
-    font-size: 16px;
-
-}
-
-button:hover {
-    color: #ffffff;
-    background-color: rgb(0, 134, 211);
-    padding: 10px 20px;
-    font-size: 16px;
-
-}
-
-.banner-section {
-    width: 100%;
-    height: auto;
-
-
-}
-
-.banner-section .flexbox {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    margin-top: 40px;
-
-}
-
-
-.banner-section .flexbox .left,
-.banner-section .flexbox .right {
-    flex-basis: 50%;
-}
-
-.banner-section .flexbox .left h1 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 45px;
-    color: #1e266d;
-
-}
-
-
-.banner-section .flexbox .left p {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-size: 22px;
-    color: #1e266d;
-    line-height: 28px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
-
-}
-
-
-.banner-section .flexbox .left button {
-    font-size: 18px;
-    color: #1e266d;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
-    color: #ffffff;
-    padding: 10px 20px;
-    border: 2px;
-    border-radius: 8px;
-
-}
-
-
-
-
-
-.banner-section .flexbox .right img {
-    width: 100%;
-    height: auto;
-
-
-}
-
-.banner-section2 .flexbox {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0;
-    height: auto;
-    margin-top: 40px;
-
-
-}
-
-.banner-section2 .flexbox .left {
-    background-color: #F9799A;
-    padding: 20px 30px;
-    border: 2px;
-    border-radius: 9px;
-    margin-right: 20px;
-}
-
-.banner-section2 .flexbox .left h2 {
-    color: #ffffff;
-    margin-bottom: 20px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.banner-section2 .flexbox .left p {
-    color: #ffffff;
-    margin-bottom: 20px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-.banner-section2 .flexbox .middle {
-    background-color: #61C4D8;
-    padding: 20px 30px;
-    border: 2px;
-    border-radius: 9px;
-    margin-right: 20px;
-
-}
-
-.banner-section2 .flexbox .middle h2 {
-    color: #ffffff;
-    margin-bottom: 20px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.banner-section2 .flexbox .middle p {
-    color: #ffffff;
-    margin-bottom: 20px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-.banner-section2 .flexbox .right {
-    background-color: #1E266D;
-    padding: 20px 30px;
-    border: 2px;
-    border-radius: 9px;
-    margin-right: 20px;
-
-}
-
-.banner-section2 .flexbox .right h2 {
-    color: #ffffff;
-    margin-bottom: 20px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.banner-section2 .flexbox .right p {
-    color: #ffffff;
-    margin-bottom: 20px;.banner-section6 .flexbox{
-        width: 100%;
-        height: 50vh;
-        display: flex;  
-        align-items: center;
-        background-color: #1E266D;
-        padding: 50px;
-    
-        justify-content: center;
-    }
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-.banner-section3 .flexbox{
-    width: 100%;
-    height: auto;
-    display: block;  
-      align-items: center;
-      margin-top: 40px;
-
-    justify-content: center;
-}
-
-.banner-section3 .flexbox h1 {
-    color: #000000;
-    margin-bottom: 20px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 50px;
-    text-align: center;}
-
-    .banner-section3 .flexbox img{
-        width: 100%;
-        height: auto;
-        vertical-align: inherit;
-    
-    
-}
-
-.banner-section4 .flexbox {
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-    margin: 0;
-    height: auto;
-    margin-top: 40px;
-
-
-}
-
-.banner-section4 .flexbox .box1 {
-
-    border-top: 5px solid #61C4D8;
-    padding-top: 20px;
-
-
-}
-
-.banner-section4 .flexbox .box2 {
-
-    border-top: 5px solid #E94524;
-    padding-top: 20px;
-
-
-}
-
-.banner-section4 .flexbox .box3 {
-
-    border-top: 5px solid #2D9470;
-    padding-top: 20px;
-
-
-}
-
-.banner-section4 .flexbox .box4 {
-
-    border-top: 5px solid #61C4D8;
-    padding-top: 20px;
-
-
-}
-
-.banner-section4 .flexbox h2 {
-
-    color: #302e2e;
-    margin-bottom: 20px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-
-
-}
-
-.banner-section4 .flexbox p {
-    color: #1f1e1e;
-    margin-bottom: 20px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    padding-right: 10px;
-}
-
-.banner-section5 .flexbox {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    height: auto;
-    margin-top: 40px;
-
-    justify-content: center;
-
-}
-
-
-.banner-section5 .flexbox .left,
-.banner-section5 .flexbox .right {
-    flex-basis: 50%;
-}
-
-.banner-section5 .flexbox .left h1 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 45px;
-    color: #1e266d;
-    align-items: center;
-
-}
-
-
-.banner-section5 .flexbox .left p {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-size: 22px;
-    color: #1e266d;
-    line-height: 28px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
-
-}
-
-
-.banner-section5 .flexbox .left button {
-    font-size: 18px;
-    color: #1e266d;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
-    color: #ffffff;
-    padding: 10px 20px;
-    border: 2px;
-    border-radius: 8px;
-
-}
-
-
-
-
-
-.banner-section5 .flexbox .right img {
-    width: 50%;
-    height: auto;
-    
-
-
-}
-
-
-
-
-
-
-.banner-section6 {
-    width: 100%;
-      height: auto;
-      margin-top: 50px;
-
-}
-.banner-section6 .flexbox{
-    width: 100%;
-    display: flex;  
-    align-items: center;
-    background-color: #1E266D;
-    justify-content: center;
-
-}
-
-.banner-section6 .flexbox .left{
-    color: white;
-    padding: 50px 20px;
-   
-}
-.banner-section6 .flexbox .right{
-    color: white;
-    padding: 50px 20px;
-    
-   
-}
-
-
-
-
-.banner-section7 .flexbox {
-    display: flex;
-    align-items: baseline;
-    margin: 0;
-    height: auto;
-    margin-top: 40px;
-
-
-}
-
-.banner-section7 .flexbox .box1,.banner-section7 .flexbox .box2,.banner-section7 .flexbox .box3,.banner-section7 .flexbox .box4{
-    flex-basis: 25%;
-    align-items: center;
-    
-
-
-}
-
-
-.banner-section7 .flexbox h2 {
-
-    color: #302e2e;
-    margin-bottom: 20px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-
-
-}
-
-.banner-section7 .flexbox p {
-    color: #1f1e1e;
-    margin-bottom: 20px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    padding-right: 10px;
-}
-.banner-section7 .flexbox ul {
-    list-style-type: none;
-}
+
+        </div>
+    </section>
+
+
+
+    <section class="banner-section">
+        <div class="wrapper">
+            <div class="flexbox">
+                <div class="left">
+                    <h1>Project Based Learning</h1>
+                    <p>Shikhbe Shobai provides 100% project oriented training. It means you will do real time client's
+                        projects as your assignments. Mentors will make you involved in dealing with the real client's
+                        experience.</p>
+                    <button>View Courses</button>
+                </div>
+
+                <div class="right"><img src="https://shikhbeshobai.com/frontend/assets/images/image2.png" alt=""></div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section class="banner-section">
+        <div class="wrapper">
+            <div class="flexbox">
+                <div style="margin-right: 40px;" class="right"><img src="https://shikhbeshobai.com/frontend/assets/images/Support.png" alt=""></div>
+
+                <div class="left">
+                    <p style="margin: 0;">Get help</p>
+                    <h1>Lifetime Free Support</h1>
+                    <p>During the training and after the training, Shikhbe Shobai provides offline and online support to
+                        all of their students whenever needed. And it's free for the lifetime!</p>
+                    <button>Get Support</button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section class="banner-section">
+        <div class="wrapper">
+            <div class="flexbox">
+                <div class="left">
+                    <p style="margin: 0;">Earning</p>
+                    <h1>Learn to Earn</h1>
+                    <p>The goal of our training is to make you able to earn. Our students: work in online freelancing
+                        marketplaces such as Upwork, Fiverr etc, do remote jobs in international companies, do local
+                        jobs in good companies.</p>
+                    <button>View Courses</button>
+                </div>
+
+                <div class="right"><img src="https://shikhbeshobai.com/frontend/assets/images/image3.png" alt=""></div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="banner-section">
+        <div class="wrapper">
+            <div class="flexbox">
+                <div style="margin-right: 50px;" class="right"><img src="https://shikhbeshobai.com/frontend/assets/images/Card-Mockup.png" alt="">
+                </div>
+
+                <div class="left">
+                    <p style="margin: 0;">Shikhbe Shobai </p>
+                    <h1>Privilege card</h1>
+                    <p>Shikhbe Shobai has introduced a new service from October 1, 2021, in association with various
+                        restaurant, Life style company, Tech company and Bank Asia Ltd. The Privilege card by Shikhbe
+                        Shobai Solutions discounts and benefits across a wide range of categories such as dining, life
+                        Style, Hotels, Educational institution, Banking service as well as shopping.</p>
+                    <button>See Details</button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="banner-section3">
+        <div class="flexbox">
+            <h1>How To Change Your Life?</h1>
+        <img src="https://shikhbeshobai.com/frontend/assets/images/tab-1.png" alt="">
+
+        </div>
+        
+    </section>
+
+
+
+    <section class="banner-section4">
+        <div class="wrapper">
+            <div class="flexbox">
+                <div class="box1">
+                    <h2>Develop Your Skillset</h2>
+                    <p>Learn more about what hard
+                        skills and soft skills to put on
+                        a resume so it stands out
+                        from the others.</p>
+                </div>
+                <div class="box2">
+                    <h2>Manage Your Client</h2>
+                    <p>Client management systems
+                        allow businesses to seamlessly
+                        manage their relationships with
+                        potential customers.</p>
+
+                </div>
+                <div class="box3">
+                    <h2>Prepare Portfolio</h2>
+                    <p> A portfolio is a collection of
+                        your best work samples that
+                        can illustrate your skills and
+                        expertise in particular domain.</p>
+
+                </div>
+                <div class="box4">
+                    <h2> Soft Skills and Freelancing
+                    </h2>
+                    <p>
+                        Soft Skills and Freelancing
+                        Soft skills like communication,
+                        thinking creatively, and all
+                        have their place in the work
+                        environment.</p>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="banner-section5">
+        <div class="wrapper">
+            <div class="flexbox">
+                <div class="left">
+                    <h1>Success Stories</h1>
+                    <p>Coming from all walks of life, our graduates have something in common: they decided to learn with us to pursue their dreams.</p>
+                    <button>See All Success Stories</button>
+                </div>
+
+                <div class="right">
+                    <img src="images/me.png" alt="">
+                <p>মাত্র ২টি ক্লাস করেই যদি যেকোনো ওয়েবসাইট ক্লোন করে ফেলতে পারি তাহলে আশা করি ইনশাআল্লাহ্‌ ভালো কিছুই করতে পারবো, এসাইন্মেন্ট আর হোমওয়ার্ক গুলো করতেও মজা লাগতেছে সাথে শিখাও হচ্ছে। </p>
+                
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="banner-section6">
+        <div class="wrapper">
+            <div class="flexbox">
+                        <div class="left">
+            <h2>Head Office - Banani Branch</h2>
+            <p>House# 74 Road# 7, <br>Block# H, Banani, Dhaka-1213 <br>
+            Phone: 01758066329, 01758066325, 01872650686, 01872657169 </p>
+        </div>
+
+        <div class="right">
+            <h2>Branch Office - Mirpur Branch</h2>
+            <p>HB Enterprise Bhaban. <br>Plot-9, Road-4, Section -7, <br>Mirpur-Dhaka 1216 <br>Phone: 01872650688, 01872657167, 01872650685</p>
+        </div>
+    </div>
+</section>
+<section class="banner-section7">
+    <div class="wrapper">
+        <div class="flexbox">
+            <div class="box1">
+                <h2>DShikhbe Shobai</h2>
+                <p>Shikhbe Shobai teaches you the skills you need to thrive and earn online - now and in the future.</p>
+            </div>
+            <div class="box2">
+                <h2>Let's Connect</h2>
+                <p>Shikhbe Shobai Facebook Page Freelancers Community Graphic Designers Group Web Designers Group Online Support</p>
+
+            </div>
+            <div class="box3">
+                <h2>Useful Links</h2>
+                <p><ul>
+                    <li>All Courses</li>
+                    <li>Support</li>
+                    <li>Contact</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditions</li>
+                    <li>Return and Refund Policy</li>
+
+
+                </ul> </p>
+
+            </div>
+            <div class="box4">
+                <h2> Social Links
+                </h2>
+                <p>
+                    Facebook<br>
+                    LinkedIn<br>
+                    Instagram<br>
+                    Youtube</p>
+
+            </div>
+        </div>
+
+
+    </div>
+</section>
+</body>
+
+</html>
